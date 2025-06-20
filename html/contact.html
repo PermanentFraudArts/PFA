@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/common.css" type="text/css" />
+    <title>Ohh shhit, awkward man</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img src="/resource/images/index/logo.png" alt="PFA" />
+      </div>
+      <div class="menu">
+        <a href="../index.html">Home</a>
+
+        <a href="/html/about.html">About</a>
+        <a href="/html/works.html">Works</a>
+        <a href="/html/contact.html" class="active">Contact</a>
+      </div>
+    </div>
+    <section class="guestbook">
+      <div class="img_area">
+        <img src="/resource/images/contact/toiletbox.png" />
+      </div>
+      <h2>DON'T DROP YOUR POOP</h2>
+      <form id="guestForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <textarea id="message" placeholder="What to say" required></textarea>
+        <button type="submit" class="submit">남기기</button>
+      </form>
+      <div id="guestMessages"></div>
+    </section>
+
+    <script src="/js/common.js"></script>
+    <script>
+      // ✅ 단축키 방지
+      document.addEventListener('keydown', function (e) {
+        if (
+          (e.ctrlKey && ['s', 'S', 'c', 'C', 'u', 'U'].includes(e.key)) ||
+          e.key === 'F12'
+        ) {
+          e.preventDefault();
+        }
+      });
+
+      // ✅ 우클릭 방지 (JS 방식도 같이)
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
