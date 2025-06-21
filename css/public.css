@@ -26,16 +26,29 @@ body {
   z-index: 1000;
   transition: background 0.3s ease;
 }
-.nav.scrolled {
-  background: linear-gradient(
+.nav:before {
+  display:block;
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 130px;
+  transition: opacity 0.3 ease;
+   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 0.4) 50%,
     rgba(255, 255, 255, 0) 100%
   );
+  opacity: 0;
+}
+.nav.scrolled:before {
+ opacity:1;
 }
 
-#about_body .nav.scrolled {
+#about_body .nav.scrolled:before {
   background: linear-gradient(
     to bottom,
     rgba(255, 19, 240, 0.8) 0%,
