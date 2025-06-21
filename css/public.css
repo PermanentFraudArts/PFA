@@ -99,8 +99,8 @@ body {
   margin-top: 130px;
 }
 
-footer{
-  padding:20px;font-size:10px;
+footer{ border-top:1px solid hotpink;
+  padding:20px; text-align:center; font-size:10px;
 }
 footer .text_line{font-weight:500; margin-bottom:8px;}
 footer .contact_link a{color:black; margin:0 5px;}
