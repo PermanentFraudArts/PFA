@@ -59,12 +59,19 @@ body {
   text-decoration: none;
   transition: transform 0.5s ease;
 }
+
 .nav a + a {
   margin-left: 50px;
 }
 .nav a.active {
   color: hotpink;
 }
+
+.nav.scrolled a {
+  font-weight:400;
+}
+
+
 /*
 .nav a:hover {
   transform: scale(3.05);
