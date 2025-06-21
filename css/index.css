@@ -73,21 +73,23 @@
 }
 .curtain .left_ct {
   position: absolute;
-  left: -50px;
-  transition: left 2s ease, opacity 2s ease;
+  left:0;
+  transform: translateX(0);
+  transition: position 2s ease, opacity 2s ease;
 }
 .curtain .right_ct {
   position: absolute;
-  right: -50px;
-  transition: right 2s ease, opacity 2s ease;
+  right:0;
+  transform: translateX(0);
+  transition: position 2s ease, opacity 2s ease;
 }
 
 .curtain .left_ct.animate-out {
-  left: -500px;
+  transform: translateX(-150%);
   opacity: 0;
 }
 .curtain .right_ct.animate-out {
-  right: -500px;
+   transform: translateX(150%);
   opacity: 0;
 }
 
