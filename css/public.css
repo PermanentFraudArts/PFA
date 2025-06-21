@@ -35,7 +35,7 @@ body {
   );
 }
 
-.about-body .nav.scrolled {
+#about_body .nav.scrolled {
   background: linear-gradient(
     to bottom,
     rgba(255, 19, 240, 1) 0%,
