@@ -4,6 +4,8 @@
   width: 100%;
   padding: 80px 60px;
 }
+.index_html.content{padding:0; font-size:0; line-hiehgt:0;}
+
 .poop-container {
   text-align: center;
 }
