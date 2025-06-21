@@ -264,7 +264,7 @@
   margin-top: 30px;
 }
 
-#guestMessages .msg {
+#guestMessages .guest-message {
   position: relative;
   background: hotpink;
   padding: 10px;
@@ -272,11 +272,11 @@
   border-radius: 10px;
 }
 
-#guestMessages .msg + .msg {
+#guestMessages .guest-message + .guest-message {
   margin-top: 15px;
 }
 
-#guestMessages .msg .delete {
+#guestMessages .guest-message .delete {
   position: absolute;
   bottom: 10px;
   right: 10px;
