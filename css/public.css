@@ -45,7 +45,7 @@ body {
   opacity: 0;
   z-index:-1;
 }
-#about_body .nav:before {
+#index_html .nav:before {
   background: linear-gradient(
     to bottom,
     rgba(255, 19, 240, 0.8) 0%,
