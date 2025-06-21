@@ -31,13 +31,16 @@
         <textarea id="message" placeholder="What to say" required></textarea>
         <button type="submit" class="submit">남기기</button>
       </form>
-      <div id="guestMessages"></div>
+      <div id="guestMessages" onclick="submitGuestbook()"></div>
     </section>
     
 <script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
+  import { getDatabase, ref, push, set, onChildAdded } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js";
+const db = getDatabase(app);
+
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -57,6 +60,51 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
+
+const form = document.getElementById("guestForm");
+const nameInput = document.getElementById("name");
+const messageInput = document.getElementById("message");
+const guestMessages = document.getElementById("guestMessages");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const name = nameInput.value.trim();
+  const message = messageInput.value.trim();
+
+  if (name === "" || message === "") return;
+
+  const newMessageRef = push(ref(db, "guestbook"));
+  set(newMessageRef, {
+    name: name,
+    message: message,
+    timestamp: Date.now()
+  });
+
+  nameInput.value = "";
+  messageInput.value = "";
+});const guestbookRef = ref(db, "guestbook");
+
+onChildAdded(guestbookRef, (data) => {
+  const entry = data.val();
+
+  const messageBox = document.createElement("div");
+  messageBox.classList.add("guest-message");
+
+  const nameTag = document.createElement("strong");
+  nameTag.textContent = entry.name + ": ";
+
+  const msgTag = document.createElement("span");
+  msgTag.textContent = entry.message;
+
+  messageBox.appendChild(nameTag);
+  messageBox.appendChild(msgTag);
+
+  guestMessages.appendChild(messageBox);
+});
+
+
+
+  
 </script>
     <script src="js/common.js"></script>
     <script>
