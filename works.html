@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/common.css" type="text/css" />
+    <title>Ohh shhit, awkward man</title>
+  </head>
+  <body oncontextmenu="return false" class="work_body">
+    <div class="curtain">
+      <img src="../resource/images/work1/curtain01.png" class="left_ct" />
+      <img src="../resource/images/work1/curtain02.png" class="right_ct" />
+    </div>
+    <div class="nav">
+      <div class="logo">
+        <img src="../resource/images/index/logo.png" alt="PFA" />
+      </div>
+      <div class="menu">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="works.html" class="active">Works</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <section class="content">
+      <!--갤러리-->
+      <div class="gallery">
+        <div
+          class="work-item"
+          data-title="PFA Business Card"
+          data-description="PFA 명함 앞면과 뒷면 디자인"
+          data-images="../resource/images/work1/pfa_bc_front.png,../resource/images/work1/pfa_bc_back.png"
+        >
+          <img src="../resource/images/work1/pfa_bc_front.png" alt="PFA" />
+          <h2 class="title">PFA Business Card</h2>
+        </div>
+        <div
+          class="work-item"
+          data-title="PFA luxury dining"
+          data-description="Enjoy my time"
+          data-images="../resource/images/index/img02.png,../resource/images/index/img01.png"
+        >
+          <img src="../resource/images/index/img02.png" alt="PFA" />
+          <h2 class="title">PFA luxury dining</h2>
+        </div>
+      </div>
+      <!--확대/슬라이드-->
+      <div class="gallery_detail">
+        <span class="close">X<em>close</em></span>
+        <div class="detail_slide">
+          <div class="unit">
+            <div class="img_area"></div>
+            <h2 class="title"></h2>
+            <div class="text_area">
+              <p></p>
+            </div>
+          </div>
+          <div class="btn">
+            <button type="button" class="pre">
+              &larr;<em>previous image</em>
+            </button>
+            <button type="button" class="next">
+              &rarr;<em>next image</em>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="../js/common.js"></script>
+    <script src="../js/work.js"></script>
+
+    <script>
+      // ✅ 단축키 방지
+      document.addEventListener('keydown', function (e) {
+        if (
+          (e.ctrlKey && ['s', 'S', 'c', 'C', 'u', 'U'].includes(e.key)) ||
+          e.key === 'F12'
+        ) {
+          e.preventDefault();
+        }
+      });
+
+      // ✅ 우클릭 방지 (JS 방식도 같이)
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
