@@ -73,13 +73,13 @@
 }
 .curtain .left_ct {
   position: absolute;
-  left:0;
+  left:-50px;
   transform: translateX(0);
   transition: position 2s ease, opacity 2s ease;
 }
 .curtain .right_ct {
   position: absolute;
-  right:0;
+  right:-50px;
   transform: translateX(0);
   transition: position 2s ease, opacity 2s ease;
 }
