@@ -256,7 +256,8 @@
   cursor: pointer;
   border: none;
   border-radius: 20px;
-  border: 1px solid hotpink;
+   background: hotpink;
+
   margin-top: 20px;
 }
 
@@ -266,7 +267,7 @@
 
 #guestMessages .guest-message {
   position: relative;
-  background: hotpink;
+   border: 1px solid hotpink;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -276,6 +277,16 @@
   margin-top: 15px;
 }
 
+#guestMessages .guest-message strong{
+  display:block;
+  
+}
+
+#guestMessages .guest-message span{
+  display:block;
+}
+
+
 #guestMessages .guest-message .delete {
   position: absolute;
   bottom: 10px;
@@ -283,3 +294,5 @@
   border: 0;
   background: none;
 }
+
+
