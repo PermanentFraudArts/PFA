@@ -34,6 +34,17 @@ body {
     rgba(255, 255, 255, 0) 100%
   );
 }
+
+.about-body .nav.scrolled {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 19, 240, 1) 0%,
+    rgba(255, 19, 240, 0.4) 50%,
+    rgba(255, 19, 240, 0) 100%
+  );
+}
+
+
 .nav .logo img {
   width: 100px;
 }
