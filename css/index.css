@@ -249,8 +249,7 @@
 }
 
 #guestForm button {
-  background-color: white;
-  color: hotpink;
+  color: white;
   padding: 10px;
   font-weight: bold;
   cursor: pointer;
