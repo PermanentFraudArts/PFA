@@ -90,8 +90,11 @@
     const messageBox = document.createElement("div");
     messageBox.classList.add("guest-message");
 
-    const nameTag = document.createElement("strong");
-    nameTag.textContent = entry.name + "님 왈왈(曰曰)";
+ const emojis = ["🐵", "💩", "🐭"];
+const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+
+const nameTag = document.createElement("strong");
+nameTag.textContent = `${randomEmoji} ${entry.name}님 왈왈(曰曰)`;
 
     const msgTag = document.createElement("span");
     msgTag.textContent = entry.message;
