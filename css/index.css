@@ -65,7 +65,7 @@
   position: absolute;
   top: -130px;
   width: 100%;
-  overflow:hidden;
+  overflow-y:hidden;
 }
 .curtain .left_ct {
   position: absolute;
