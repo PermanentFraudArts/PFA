@@ -104,7 +104,7 @@ body {
   #mobileMenu.active{display:block;}
   .nav a{display:block; padding:10px; margin:30px;}
   .nav a.active{color:white;}
-  .nav a + a{maring-left:0;}
+  .nav a + a{margin-left:0;}
 }
 
 
