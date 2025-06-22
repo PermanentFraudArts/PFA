@@ -9,6 +9,7 @@ body {
   height: 100%;
   position: relative;
 }
+body {overflow-x:hidden;}
 
 #about_body {
   overflow-x: hidden;
