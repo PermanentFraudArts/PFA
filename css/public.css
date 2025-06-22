@@ -115,7 +115,7 @@ body {
 }
 
 @media (max-width: 640px) {
-  .content(margin-top:80px;}
+  .content{margin-top:80px;}
 }
 
 footer{ border-top:1px solid hotpink;
