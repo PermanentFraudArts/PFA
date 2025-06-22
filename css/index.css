@@ -27,6 +27,11 @@
   line-height: 30px;
 }
 
+
+@media (max-width: 640px) {
+  .index_intro img{margin-top:0;}
+}
+
 /* 어바웃 */
 .about {
   padding: 0 100px 100px;
