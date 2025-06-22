@@ -12,6 +12,16 @@ window.addEventListener('scroll', () => {
   }
 });
 
+//메뉴토글
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.getElementById('menuToggle');
+    const menu = document.getElementById('mobileMenu');
+
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  });
+
 
 //발자국
 // const form = document.getElementById('guestForm');
