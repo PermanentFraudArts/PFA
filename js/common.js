@@ -1,6 +1,9 @@
 // 메뉴
 console.log('스크롤 스크립트 실행됨');
 window.addEventListener('scroll', () => {
+  console.log('스크롤 중', window.scrollY);
+});
+window.addEventListener('scroll', () => {
   const menu = document.querySelector('.nav');
   if (window.scrollY > 50) {
     menu.classList.add('scrolled');
