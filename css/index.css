@@ -29,6 +29,7 @@
 
 
 @media (max-width: 640px) {
+  .content {padding:50px;}
   .index_intro img{margin-top:0;}
 }
 
