@@ -304,5 +304,5 @@
 }
 
 @media (max-width: 640px) {
-.guestbook {padding:70px auto 50px;}
+.guestbook {margin:70px auto 50px;}
 }
