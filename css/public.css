@@ -98,7 +98,7 @@ body {
   transform: scale(3.05);
 }*/
 @media (max-width: 640px) {
-  .nav{height:autol padding:20px 30px; text-align:left;}
+  .nav{height:auto; padding:20px 30px; text-align:left;}
   .nav:before{height:80px;}
   .nav .logo img{width:60px;}
 .menu-toggle {display:block;position:absolute;top:19px;right:25px;border:0;background:transparent;font-size:20px;z-index:1001;}
