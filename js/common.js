@@ -1,14 +1,14 @@
 // 메뉴
-document.addEventListener('DOMContentLoaded', function () {
+// 메뉴
+window.addEventListener('scroll', () => {
   const menu = document.querySelector('.nav');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-      menu.classList.add('scrolled');
-    } else {
-      menu.classList.remove('scrolled');
-    }
-  });
+  if (window.scrollY > 50) {
+    menu.classList.add('scrolled');
+  } else {
+    menu.classList.remove('scrolled');
+  }
 });
+
 
 //발자국
 // const form = document.getElementById('guestForm');
