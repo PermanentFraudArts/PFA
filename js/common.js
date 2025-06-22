@@ -1,11 +1,13 @@
 // 메뉴
-window.addEventListener('scroll', () => {
+document.addEventListener('DOMContentLoaded', function () {
   const menu = document.querySelector('.nav');
-  if (window.scrollY > 50) {
-    menu.classList.add('scrolled');
-  } else {
-    menu.classList.remove('scrolled');
-  }
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      menu.classList.add('scrolled');
+    } else {
+      menu.classList.remove('scrolled');
+    }
+  });
 });
 
 //발자국
