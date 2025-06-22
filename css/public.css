@@ -90,11 +90,24 @@ body {
   font-weight:500;
 }
 
+.menu-toggle {display:none;}
+
 
 /*
 .nav a:hover {
   transform: scale(3.05);
 }*/
+@media (max-width: 6406px) {
+.menu-toggle {display:block;}
+
+}
+
+@media (max-width: 640px) {
+  .nav a + a {
+  margin-left: 25px;
+}
+}
+
 .content {
   margin-top: 130px;
 }
