@@ -64,7 +64,7 @@
   .about p{font-size:20px;}
 }
 @media (max-width: 640px) {
-  .about{padding:0 20px;}
+  .about{padding:0 10px;}
 }
 
 /* 웍스 */
