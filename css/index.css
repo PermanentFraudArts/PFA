@@ -264,6 +264,7 @@
   .detail_slide .text_area {
     font-size: 12px;
   }
+  .gallery_detail{padding:100px;}
   .gallery_detail .btn button.pre {
     top: 30%;
   }
