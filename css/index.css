@@ -107,7 +107,7 @@
   position: relative;
   overflow: hidden; /* 여기서 잘라냄 */
   width: 100%;
-  height: 100vh; /* 또는 필요한 높이 */
+
   z-index: 9999; /* 최상단 효과 */
 }
 
@@ -130,13 +130,13 @@
 
 /* 왼쪽 커튼: 왼쪽에서 시작 */
 .left_ct {
-  left: 0;
+  left: -50px;
   transform: translateX(0);
 }
 
 /* 오른쪽 커튼: 오른쪽에서 시작 */
 .right_ct {
-  right: 0;
+  right: -50px;
   transform: translateX(0);
 }
 
