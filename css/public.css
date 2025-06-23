@@ -99,7 +99,7 @@ body {
   transform: scale(3.05);
 }*/
 @media (max-width: 640px) {
-  .nav{height:auto; padding:13px 0px 12px; text-align:left;}
+  .nav{height:auto; padding:14px 4px 11px; text-align:left;}
   .nav:before{height:70px;}
   .nav .logo img{width:90px;}
   .nav.scrolled .logo img{width:60px;}
