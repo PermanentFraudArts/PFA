@@ -122,7 +122,11 @@ body {
 }
 
 footer{ border-top:1px solid hotpink;
-  padding:20px; text-align:center; font-size:10px;
+  padding:20px; text-align:center; font-size:12px;
 }
 footer .text_line{font-weight:500; margin-bottom:8px;}
 footer .contact_link a{color:black; margin:0 5px;}
+
+
+
+
