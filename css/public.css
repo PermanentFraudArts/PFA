@@ -109,7 +109,7 @@ body {
   .nav a{display:block; padding:10px; margin:30px;}
   .nav a.active{color:white;}
   .nav a + a{margin-left:30px;}
-  #mobileMenu img{display:block;}
+  #mobileMenu img{display:inline-block;}
 }
 
 
