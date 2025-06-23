@@ -91,19 +91,14 @@
 }
 
 .curtain .left_ct.animate-out {
- /* transform: translateX(-150%);
-  opacity: 0;*/
-
-    transform: scaleX(0);
+ transform: translateX(-150%);
   opacity: 0;
-  transform-origin: left;
+
+   
 }
 .curtain .right_ct.animate-out {
-  /* transform: translateX(150%);
-  opacity: 0;*/
-    transform: scaleX(0);
+ transform: translateX(150%);
   opacity: 0;
-  transform-origin: right;
 }
 
 .gallery {
