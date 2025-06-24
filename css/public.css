@@ -48,7 +48,7 @@ body {
 #index_html .nav:before {
   background: linear-gradient(
     to bottom,
-    rgba(255, 19, 240, 0.8) 0%,
+    rgba(255, 19, 40, 0.8) 0%,
     rgba(255, 19, 240, 0.3) 55%,
     rgba(255, 19, 240, 0) 100%
   );
