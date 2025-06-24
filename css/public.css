@@ -58,7 +58,7 @@ body {
 }
 .nav .logo_link{display:inline-block; padding:0; margin:0;}
 .nav .logo img {
-  width: 120px;
+  width: 100px;
     transition: width 0.3s ease;
 }
 .nav.scrolled .logo img {
@@ -121,11 +121,11 @@ body {
   .content{margin-top:70px;}
 }
 
-footer{ border-top:1px solid hotpink;
+footer{background:black; border-top:1px solid hotpink;
   padding:20px; text-align:center; font-size:12px;
 }
 footer .text_line{font-weight:500; margin-bottom:8px;}
-footer .contact_link a{color:black; margin:0 5px;}
+footer .contact_link a{color:hotpink; margin:0 5px;}
 
 
 
