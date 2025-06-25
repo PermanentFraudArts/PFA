@@ -175,7 +175,7 @@
 .work-item .title {
   margin-top: 15px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 13px;
  /* color: #333;*/
 }
 
@@ -283,7 +283,7 @@
   max-width: 600px;
   margin: 200px auto 100px;
   padding: 30px;
-  background: #fefefe;
+
 }
 .guestbook .img_area {
   text-align: center;
@@ -323,7 +323,7 @@
   cursor: pointer;
   border: none;
   border-radius: 20px;
-   background: hotpink;
+   background: red;
 
   margin-top: 20px;
 }
@@ -334,7 +334,7 @@
 
 #guestMessages .guest-message {
   position: relative;
-   border: 1px solid hotpink;
+   border: 1px solid red;
   padding: 15px 20px;
   margin-bottom: 10px;
   border-radius: 10px;
