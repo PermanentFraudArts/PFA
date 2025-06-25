@@ -107,7 +107,7 @@ body {
 }*/
 @media (max-width: 640px) {
   .nav{height:auto; padding:22px 20px 19px; text-align:left;}
-  .nav:before{height:70px;}
+  .nav:before{left:0; height:150px;}
   .nav .logo img{width:60px;}
   .nav.scrolled .logo img{width:60px;}
 .menu-toggle {display:block;position:absolute;top:19px;right:25px;border:0;background:transparent;font-size:20px;z-index:1001;}
