@@ -5,12 +5,14 @@ const guestMessages = document.getElementById('guestMessages');
 
 function loadMessages() {
   const saved = JSON.parse(localStorage.getItem('guestbook')) || [];
-  guestMessages.innerHTML = '';
+  guestMessages.innerHTML = ''; // 기존 메시지를 모두 지웁니다.
+
+  // saved 배열은 이미 최신순으로 정렬되어 있습니다.
   saved.forEach((entry) => {
     const div = document.createElement('div');
     div.className = 'msg';
     div.innerHTML = `<strong>${entry.name}</strong><br>${entry.message}`;
-    guestMessages.prepend(div);
+    guestMessages.appendChild(div); // <-- 이 부분을 appendChild()로 변경합니다.
   });
 }
 
