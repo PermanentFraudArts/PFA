@@ -49,6 +49,7 @@ body {
   /*opacity: 0;*/
   z-index:-1;
 }
+/*
 #index_html .nav:before {
   background: linear-gradient(
     to bottom,
@@ -56,7 +57,7 @@ body {
     rgba(255, 19, 240, 0.3) 55%,
     rgba(255, 19, 240, 0) 100%
   );
-}
+}*/
 .nav.scrolled:before {
  opacity:1;
 }
