@@ -8,6 +8,7 @@ body {
   padding: 0;
   height: 100%;
   position: relative;
+  background:black;
 }
 
 #about_body {
@@ -84,7 +85,7 @@ body {
   margin-left: 50px;
 }
 .nav a.active {
-  color: hotpink;
+  color: red;
 }
 
 .nav.scrolled a {
@@ -104,7 +105,7 @@ body {
   .nav .logo img{width:60px;}
   .nav.scrolled .logo img{width:60px;}
 .menu-toggle {display:block;position:absolute;top:19px;right:25px;border:0;background:transparent;font-size:20px;z-index:1001;}
-#mobileMenu{position:absolute; top:0; left:0;width:100%; height:100vh; background:hotpink; margin-top:0; padding-top:25%; text-align:center; transform:translateY(100%); /*opacity:0;  transition: opacity 0.4s ease;*/}
+#mobileMenu{position:absolute; top:0; left:0;width:100%; height:100vh; background:red; margin-top:0; padding-top:25%; text-align:center; transform:translateY(100%); /*opacity:0;  transition: opacity 0.4s ease;*/}
  #mobileMenu img{width:100px;}
   #mobileMenu.active{transform:translateY(0);}
   .nav a{display:block; padding:10px; margin:30px;}
@@ -122,11 +123,11 @@ body {
   .content{margin-top:70px;}
 }
 
-footer{background:black; border-top:1px solid hotpink;
+footer{background:black; border-top:1px solid red;
   padding:20px; text-align:center; font-size:12px;
 }
-footer .text_line{color:hotpink; font-weight:500; margin-bottom:8px;}
-footer .contact_link a{color:hotpink; margin:0 5px;}
+footer .text_line{color:red; font-weight:500; margin-bottom:8px;}
+footer .contact_link a{color:red; margin:0 5px;}
 
 
 
