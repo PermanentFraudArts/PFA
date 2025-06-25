@@ -10,7 +10,7 @@ function loadMessages() {
     const div = document.createElement('div');
     div.className = 'msg';
     div.innerHTML = `<strong>${entry.name}</strong><br>${entry.message}`;
-    guestMessages.appendChild(div);
+    guestMessages.prepend(div);
   });
 }
 
