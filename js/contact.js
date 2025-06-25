@@ -6,12 +6,13 @@ const guestMessages = document.getElementById('guestMessages');
 function loadMessages() {
   const saved = JSON.parse(localStorage.getItem('guestbook')) || [];
   guestMessages.innerHTML = '';
-  saved.forEach((entry) => {
+  for (let i = saved.length - 1; i >= 0; i--) {
+    const entry = saved[i];
     const div = document.createElement('div');
     div.className = 'msg';
     div.innerHTML = `<strong>${entry.name}</strong><br>${entry.message}`;
     guestMessages.prepend(div);
-  });
+  }
 }
 
 form.addEventListener('submit', (e) => {
