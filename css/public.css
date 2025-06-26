@@ -35,9 +35,9 @@ body {
   top: 0;
   left: 50%;
 
-  width: 600px;
+  width: 300px;
   height: 300px;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: width 0.3s ease, transform 0.3s ease;
   background: radial-gradient(
     ellipse at bottom,
     rgba(255, 255, 200, 1) 0%,      /* 중심: 발광체 느낌, 거의 흰빛 섞인 노랑 */
@@ -61,7 +61,8 @@ body {
   );
 }*/
 .nav.scrolled:before {
- opacity:1;
+ /*opacity:1;*/
+  width:600px;
 }
 .nav .logo_link{display:inline-block; padding:0; margin:0;}
 .nav .logo img {
