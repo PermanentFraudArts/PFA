@@ -81,7 +81,7 @@ body {
 }
 .nav .logo_link{display:inline-block; padding:0; margin:0;}
 .nav .logo img {
-  width: 100px;
+  width: 140px;
     transition: width 0.3s ease;
 }
 .nav.scrolled .logo img {
