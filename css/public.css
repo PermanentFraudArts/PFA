@@ -51,6 +51,21 @@ body {
   /*opacity: 0;*/
   z-index:-1;
 }
+
+.nav:after{
+  display:block;
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width:70px;
+  opacity:0.7;
+  transform:translateX(-50%);
+  background:url('../resource/images/index/light_bulb.png') no-repeat;
+  background-size:60px;
+}
+
+
 /*
 #index_html .nav:before {
   background: linear-gradient(
