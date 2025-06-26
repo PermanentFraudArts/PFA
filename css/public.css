@@ -63,6 +63,7 @@ body {
   transform:translateX(-50%);
   background:url('../resource/images/index/light_bulb.png') no-repeat;
   background-size:45px; height:50px;
+   transition: top 0.3s ease;
 }
 
 
