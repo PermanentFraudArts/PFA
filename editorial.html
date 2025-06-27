@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="resource/images/favicon.ico" />
+    <link rel="stylesheet" href="css/common.css" type="text/css" />
+    <title>PFA Project</title>
+  </head>
+  <body oncontextmenu="return false" class="work_body">
+    <div class="curtain-wrapper">
+
+   </div>
+     <div class="nav">
+      <div class="logo"><a href="index.html" class="logo_link"><img src="resource/images/index/logo_w.png" alt="PFA" /></a></div>
+      <button class="menu-toggle" id="menuToggle" type="button">☰</button>
+      <div class="menu" id="mobileMenu">
+                <img src="resource/images/index/logo_w.png" alt="PFA">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="works.html">Works</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <section class="content">
+      <!--갤러리-->
+      <div class="gallery">
+        <div
+          class="work-item"
+          data-title="Poised in the Chaos"
+          data-description="광기, 소란, 에너지"
+          data-images="resource/images/editorial/noise01.png,resource/images/editorial/noise02.png"
+        >
+          <div class="img_area"><img src="resource/images/editorial/noise01.png" alt="" /></div>
+          <h2 class="title">Poised in the Chaos</h2>
+        </div>
+        <div
+          class="work-item"
+          data-title="Just Take My Picture"
+          data-description="💛"
+          data-images="resource/images/editorial/weird00.png,resource/images/editorial/weird01.png,resource/images/editorial/weird02.png,resource/images/editorial/weird03.png"
+        >
+          <div class="img_area"> <img src="resource/images/editorial/weird00.png" alt="" /></div>
+          <h2 class="title">Mom, Just Take My Picture</h2>
+        </div>
+        <div
+          class="work-item"
+          data-title="Just Take My Picture"
+          data-description="💛"
+          data-images="resource/images/editorial/weird00.png,resource/images/editorial/weird01.png,resource/images/editorial/weird02.png,resource/images/editorial/weird03.png"
+        >
+          <div class="img_area"> <img src="resource/images/editorial/weird00.png" alt="" /></div>
+          <h2 class="title">Mom, Just Take My Picture</h2>
+        </div>
+      </div>
+      <!--확대/슬라이드-->
+      <div class="gallery_detail">
+        <span class="close">X<em>close</em></span>
+        <div class="detail_slide">
+          <div class="unit">
+            <div class="img_area"></div>
+            <h2 class="title"></h2>
+            <div class="text_area">
+              <p></p>
+            </div>
+          </div>
+          <div class="btn">
+            <button type="button" class="pre">
+              &larr;<em>previous image</em>
+            </button>
+            <button type="button" class="next">
+              &rarr;<em>next image</em>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/common.js"></script>
+    <script src="js/work.js"></script>
+
+   <!-- <script>
+      // ✅ 단축키 방지
+      document.addEventListener('keydown', function (e) {
+        if (
+          (e.ctrlKey && ['s', 'S', 'c', 'C', 'u', 'U'].includes(e.key)) ||
+          e.key === 'F12'
+        ) {
+          e.preventDefault();
+        }
+      });
+
+      // ✅ 우클릭 방지 (JS 방식도 같이)
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+    </script>-->
+  </body>
+    <footer>
+    <div class="text_line">PERMANENT FRAUD ARTS</div>
+    <div class="contact_link">
+      <a href="https://www.instagram.com/pfa.art/">@pfa.art</a>
+      <a href="mailto:permanent.fraud.arts@gmail.com?subject=문의&body=안녕하세요, 제 전 재산을 드리고 싶습니다." target="_blank">E-MAIL</a>
+    </div>
+  </footer>
+</html>
