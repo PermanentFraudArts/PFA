@@ -316,6 +316,11 @@
   resize: none;
   margin: 10px 0;
   background:black; color:red;
+  box-shadow:0 0 10px 3px rgba(255,55,85,10.2);
+}
+
+#guestForm input:focus,
+#guestForm textarea:focus{
   
 }
 
