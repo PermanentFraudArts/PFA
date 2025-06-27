@@ -1,1 +1,5 @@
+.nav:after{display:none;}
 .gallery_detail{padding:200px 30%;}
+@media (max-width: 640px) {
+.gallery_detail{padding:100px;}
+}
