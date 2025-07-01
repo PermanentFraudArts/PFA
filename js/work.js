@@ -31,6 +31,17 @@ function showDetail(item) {
   galleryDetail.style.display = 'block';
 }
 
+// 이미지 수에 따라 화살표 숨기기/보이기
+  if (images.length <= 1) {
+    prevBtn.style.display = 'none';
+    nextBtn.style.display = 'none';
+  } else {
+    prevBtn.style.display = 'inline-block';
+    nextBtn.style.display = 'inline-block';
+  }
+
+
+
 function updateImage() {
   const imgSrc = currentImages[currentImgIndex];
   imgArea.innerHTML = `<img src="${imgSrc}" alt="">`;
