@@ -221,6 +221,7 @@
 .detail_slide .text_area {
   font-weight: 200;
 }
+.detail_slide iframe{height:300px;}
 .detail_slide img {
   display: block;
   width: 100%;
