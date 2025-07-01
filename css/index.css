@@ -171,12 +171,12 @@
   width: 100%;
   border-radius: 8px;
   transition: transform 0.2s ease, filter 0.2s ease;
-   filter:grayscale(0);
+   filter:grayscale(100);
 }
 
 .work-item:hover img {
   transform: translate(-50%, -50%) scale(1.03);
-  filter:grayscale(100);
+  filter:grayscale(0);
 }
 
 .work-item .title {
