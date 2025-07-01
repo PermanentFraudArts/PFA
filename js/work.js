@@ -29,10 +29,17 @@ function showDetail(item) {
   textArea.textContent = description;
   updateImage();
   galleryDetail.style.display = 'block';
+
+   if (images.length <= 1) {
+    prevBtn.style.display = 'none';
+    nextBtn.style.display = 'none';
+  } else {
+    prevBtn.style.display = 'inline-block';
+    nextBtn.style.display = 'inline-block';
+  }
+
+  
 }
-
-
-
 
 function updateImage() {
   const imgSrc = currentImages[currentImgIndex];
