@@ -310,7 +310,9 @@
 }
 
 #guestForm input,
-#guestForm textarea {
+#guestForm textarea,
+#message-form input,
+#message-form textarea{
   padding: 10px;
   font-size: 16px;
   border: 1px solid red;
@@ -323,16 +325,20 @@
 }
 
 #guestForm input:focus,
-#guestForm textarea:focus{
+#guestForm textarea:focus,
+#message-form input:focus,
+#message-form textarea:focus{
   box-shadow:0 0 10px 3px rgba(255,55,85,10.2);
   outline:none;
 }
 
-#guestForm textarea {
+#guestForm textarea,
+#message-form textarea{
   height: 60px;
 }
 
-#guestForm button {
+#guestForm button,
+#message-form button{
   color: white;
   padding: 10px;
   font-weight: bold;
@@ -344,11 +350,12 @@
   margin-top: 20px;
 }
 
-#guestMessages {
+#guestMessages, #message-list {
   margin-top: 30px;
 }
 
-#guestMessages .guest-message {
+#guestMessages .guest-message,
+#message-list .guest-message{
   position: relative;
    border: 1px solid red;
   padding: 15px 20px;
