@@ -18,7 +18,7 @@ async function loadMessages() {
   if (data) {
     data.forEach((item) => {
       const li = document.createElement('li')
-      li.innerHTML = `<strong>${item.nickname}:</strong> ${item.message}`
+      li.innerHTML = `<strong>${item.nickname}님 曰曰(왈왈)</strong> ${item.message}`
       list.appendChild(li)
     })
   } else {
