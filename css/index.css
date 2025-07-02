@@ -303,7 +303,7 @@
   text-align: center;
 }
 
-#guestForm {
+#guestForm, #message-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -313,7 +313,7 @@
 #guestForm textarea,
 #message-form input,
 #message-form textarea{
-  display:block;
+  width:100%;
   padding: 10px;
   font-size: 16px;
   border: 1px solid red;
