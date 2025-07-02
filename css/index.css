@@ -357,7 +357,7 @@
 }
 
 #guestMessages .guest-message,
-#message-list .li{
+#message-list li{
   position: relative;
    border: 1px solid red;
   padding: 15px 20px;
