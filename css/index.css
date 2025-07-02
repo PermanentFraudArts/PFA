@@ -287,19 +287,19 @@
   .work_body .content{padding:20px 20px 30px;}
 }
 
-.guestbook {
+.guestbook, .guestbook_form {
   max-width: 600px;
   margin: 200px auto 100px;
   padding: 30px;
 
 }
-.guestbook .img_area {
+.guestbook .img_area, .guestbook_form .img_area {
   text-align: center;
 }
-.guestbook img {
+.guestbook img, .guestbook_form img  {
   width: 200px;
 }
-.guestbook h2 {
+.guestbook h2, .guestbook_form h2 {
   text-align: center;
 }
 
