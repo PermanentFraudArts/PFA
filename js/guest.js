@@ -7,12 +7,13 @@ const messageInput = document.getElementById('message-input')
 
 // 메시지 불러오기
 async function loadMessages() {
-  console.log('asd');
   const { data, error } = await supabase
     .from('GUESTBOOK')
     .select('*')
     .order('created_at', { ascending: false })
 
+  console.log(data, error) 
+  
   list.innerHTML = ''
   if (data) {
     data.forEach((item) => {
