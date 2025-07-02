@@ -391,5 +391,5 @@
 
 @media (max-width: 640px) {
 .guestbook, .guestbook_form {margin:70px auto 0;}
-  #guestForm input, #guestForm textarea{margin:5px 0; background:red;}
+  #guestForm input, #guestForm textarea{margin:5px 0;}
 }
