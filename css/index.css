@@ -292,7 +292,7 @@
   margin: 200px auto 100px;
   padding: 30px;
 }
-.guestbook_form{margin-top:50px;}
+
 
 .guestbook .img_area, .guestbook_form .img_area {
   text-align: center;
@@ -357,7 +357,7 @@
 }
 
 #guestMessages .guest-message,
-#message-list .guest-message{
+#message-list .li{
   position: relative;
    border: 1px solid red;
   padding: 15px 20px;
@@ -365,16 +365,16 @@
   border-radius: 10px;
 }
 
-#guestMessages .guest-message + .guest-message {
+#guestMessages .guest-message + .guest-message, #message-list li + li {
   margin-top: 15px;
 }
 
-#guestMessages .guest-message strong{
+#guestMessages .guest-message strong, #message-list li strong{
   display:block;
   
 }
 
-#guestMessages .guest-message span{
+#guestMessages .guest-message span, ##message-list li span{
   display:block;
 }
 
@@ -388,6 +388,6 @@
 }
 
 @media (max-width: 640px) {
-.guestbook {margin:70px auto 0;}
+.guestbook, .guestbook_form {margin:70px auto 0;}
   #guestForm input, #guestForm textarea{margin:5px 0; background:red;}
 }
