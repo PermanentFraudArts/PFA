@@ -22,39 +22,6 @@
     </div>
 
  
-    <section class="guestbook">
-      <div class="img_area">
-        <img src="resource/images/contact/toiletbox.png" />
-      </div>
-      <h2>DON'T DROP YOUR POOP</h2>
-      <form id="message-form">
-        <input type="text" id="nickname-input" placeholder="이름" required />
-        <textarea id="message-input" placeholder="하고 싶은 말 남겨주세요. 최근에 재밌던 일 기록도 좋습니다." required></textarea>
-        <!--<textarea id="message" placeholder="하고 싶은 말" required></textarea>-->
-        <button type="submit" class="submit">남기기</button>
-      </form>
-      <div id="message-list"></div>
-    </section>
-
-    <script src="js/common.js"></script>
-        <script type="module" src="guest.js"></script>
-
-    <script>
-      // ✅ 단축키 방지
-      document.addEventListener('keydown', function (e) {
-        if (
-          (e.ctrlKey && ['s', 'S', 'c', 'C', 'u', 'U'].includes(e.key)) ||
-          e.key === 'F12'
-        ) {
-          e.preventDefault();
-        }
-      });
-
-      // ✅ 우클릭 방지 (JS 방식도 같이)
-      document.addEventListener('contextmenu', function (e) {
-        e.preventDefault();
-      });
-    </script>
      
   </body>
    <footer>
