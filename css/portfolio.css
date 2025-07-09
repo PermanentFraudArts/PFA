@@ -1,3 +1,4 @@
 #portfolio, #portfolio body {background:white; color:black;}
 .nav:before{display:none;}
 .work-item .title{font-size:15px;}
+.nav .logo img{width:120px;}
