@@ -36,7 +36,7 @@ body {
   top: 0;
   left: 0;
   width:100%;
-  height:200px;
+  height:170px;
   background: linear-gradient(to bottom, red 10%, hotpink 50%,rgba(255, 0, 0, 0));
   transition: opacity 0.3s ease;
   /*width: 300px;
@@ -81,7 +81,7 @@ body {
   );
 }*/
 .nav.scrolled:before {
- opacity:0.5;
+ opacity:0.8;
   
 }
 .nav.scrolled:after {
@@ -159,6 +159,7 @@ footer{background:black; border-top:1px solid red;
 }
 footer .text_line{padding-bottom:20px; border-bottom:1px dashed red; color:red; font-weight:500; margin-bottom:18px;}
 footer .contact_link a{color:red; margin:0 5px;}
+
 
 
 
