@@ -37,7 +37,7 @@ body {
   left: 0;
   width:100%;
   height:170px;
-  background: linear-gradient(to bottom, red 10%, hotpink 50%,rgba(255, 0, 0, 0));
+  background: linear-gradient(to bottom, hotpink, rgba(255, 0, 0, 0));
   transition: opacity 0.3s ease;
   /*width: 300px;
   height: 300px;
@@ -159,4 +159,5 @@ footer{background:url('../resource/images/index/footersback.png') no-repeat; bac
 }
 footer .text_line{padding-bottom:20px; color:hotpink; font-weight:500; margin-bottom:18px;}
 footer .contact_link a{color:hotpink; margin:0 5px;}
+
 
