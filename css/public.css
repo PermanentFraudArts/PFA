@@ -8,8 +8,8 @@ body {
   padding: 0;
   height: 100%;
   position: relative;
-  background:black;
-  color:white;
+  background:#fff;
+  color:#000;
 }
 
 #about_body {
@@ -155,6 +155,7 @@ footer{background:black; border-top:1px solid red;
 }
 footer .text_line{padding-bottom:20px; border-bottom:1px dashed red; color:red; font-weight:500; margin-bottom:18px;}
 footer .contact_link a{color:red; margin:0 5px;}
+
 
 
 
