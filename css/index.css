@@ -322,7 +322,7 @@
   border-radius: 20px;
   resize: none;
   margin: 10px 0;
-  background:hotpink; color:hotpink;
+  background:hotpink; color:white;
   
 }
 
@@ -393,4 +393,5 @@
 .guestbook, .guestbook_form {margin:70px auto 0;}
   #guestForm input, #guestForm textarea{margin:5px 0;}
 }
+
 
