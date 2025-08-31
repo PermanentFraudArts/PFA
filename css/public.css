@@ -138,7 +138,7 @@ body {
   .nav{height:auto; padding:22px 20px 19px; text-align:left;}
   .nav:before{left:0; height:150px;}
   .nav:after{left:20px;}
-  .nav .logo img{width:60px;}
+  .nav .logo img{width:50px;}
   .nav.scrolled .logo img{width:60px;}
 .menu-toggle {display:block;position:absolute;top:19px;right:25px;border:0;background:transparent;font-size:20px;z-index:1001; color:hotpink;}
   .nav.scrolled .menu-toggle{color:white;}
@@ -165,6 +165,7 @@ footer{background:url('../resource/images/index/footersback.png') no-repeat; bac
 }
 footer .text_line{padding-bottom:20px; color:hotpink; font-weight:500; margin-bottom:18px;}
 footer .contact_link a{color:hotpink; margin:0 5px;}
+
 
 
 
