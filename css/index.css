@@ -347,7 +347,7 @@
   cursor: pointer;
   border: none;
   border-radius: 20px;
-   background: red;
+   background: hotpink;
 
   margin-top: 20px;
 }
@@ -393,5 +393,6 @@
 .guestbook, .guestbook_form {margin:70px auto 0;}
   #guestForm input, #guestForm textarea{margin:5px 0;}
 }
+
 
 
