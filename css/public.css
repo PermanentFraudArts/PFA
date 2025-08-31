@@ -147,6 +147,8 @@ body {
   #mobileMenu.active{display:block;}
   .nav a{display:block; padding:10px; margin:30px; color:#000;}
   .nav a.active{color:hotpink;}
+  .nav.scrolled a{color:#000;}
+  .nav.scrolled a.active{color:hotpink;}
   .nav a + a{margin-left:30px;}
   #mobileMenu img{display:inline-block;}
 }
@@ -165,6 +167,7 @@ footer{background:url('../resource/images/index/footersback.png') no-repeat; bac
 }
 footer .text_line{padding-bottom:20px; color:hotpink; font-weight:500; margin-bottom:18px;}
 footer .contact_link a{color:hotpink; margin:0 5px;}
+
 
 
 
