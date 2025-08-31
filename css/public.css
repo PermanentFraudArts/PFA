@@ -162,11 +162,12 @@ body {
   .content{margin-top:70px;}
 }
 
-footer{background:url('../resource/images/index/footersback.png') no-repeat; background-size:cover; border-top:1px solid hotpink;
+footer{background:url('../resource/images/index/footersback.png') no-repeat center center; background-size:cover; border-top:1px solid hotpink;
   padding:90px 20px ; text-align:center; font-size:12px;
 }
 footer .text_line{padding-bottom:20px; color:hotpink; font-weight:500; margin-bottom:18px;}
 footer .contact_link a{color:hotpink; margin:0 5px;}
+
 
 
 
